@@ -41,7 +41,7 @@ jobs:
   
       # Step to run the Snyk security scan
       - name: Run Snyk Scan
-        uses: snyk/actions@0.4.0  # Updated to use version 0.4.0
+        uses: snyk/actions@v1
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
